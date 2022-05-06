@@ -21,7 +21,6 @@ public interface SerialServices {
     Call<SerialResponse> getSerialListByCustomerIdAndCouponId(@Path("CustomerId") String CustomerId, @QueryMap Map<String, String> PathParams);
 
 
-
     @GET("v2/customer/{CustomerId}/")
     Call<SerialResponse> getSerialHistoryListByCustomerId(@Path("CustomerId") String CustomerId, @QueryMap Map<String, String> PathParams);
 

@@ -26,7 +26,7 @@ public class mzApiClient {
 
         Retrofit retrofit=new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
-                .baseUrl("https://auth.mzapiea.mezzofy.com/")
+                .baseUrl("https://auth.mzapi.mezzofy.com/")
                 .client(okHttpClient)
                 .build();
 
@@ -49,7 +49,7 @@ public class mzApiClient {
 
         Retrofit retrofit=new Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
-                .baseUrl("https://serial.mzapiea.mezzofy.com/")
+                .baseUrl("https://serial.mzapi.mezzofy.com/")
                 .client(client)
                 .build();
 
